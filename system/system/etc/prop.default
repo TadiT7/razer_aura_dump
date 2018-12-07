@@ -1,0 +1,16 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=1
+security.perf_harden=1
+ro.adb.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Thu Oct 25 06:48:28 UTC 2018
+ro.bootimage.build.date.utc=1540450108
+ro.bootimage.build.fingerprint=razer/cheryl2/aura:8.1.0/O-MR0-RC010.1-RZR-181018/1200:user/release-keys
+persist.sys.usb.config=none
+
