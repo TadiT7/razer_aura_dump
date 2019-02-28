@@ -1,0 +1,9 @@
+service vendor.razer-power-hal-1-0 /vendor/bin/hw/vendor.razer.power@1.0-service
+    class hal
+    user root
+    group system root
+    disabled
+
+# Start Razer Power HAL after AOSP Power HAL
+on property:init.svc.vendor.power-hal-1-0=running
+    start vendor.razer-power-hal-1-0
